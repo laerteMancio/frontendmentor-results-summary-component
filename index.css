@@ -283,6 +283,11 @@ button:hover {
 
     margin: 0;
     padding: 0;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 
   #sumario {
@@ -353,7 +358,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100vh;    
 
     background: linear-gradient(
       to bottom,
@@ -369,6 +374,14 @@ button:hover {
     height: 50%;
     margin: 0;
     padding-top: 12px;
+
+    border-radius: 0;
+
+    
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 
   #sumario {
@@ -440,6 +453,8 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
     height: auto;
+    
+    
 
     background: linear-gradient(
       to bottom,
@@ -455,6 +470,12 @@ button:hover {
     height: 50%;
     margin: 0;
     padding-top: 12px;
+
+   
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
 
   #sumario {
