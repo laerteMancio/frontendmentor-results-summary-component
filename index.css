@@ -128,7 +128,7 @@ main {
   background: hsl(0, 0%, 100%);
 }
 
-.titulo-sumario {
+#titulo-sumario {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -139,13 +139,13 @@ main {
   margin-top: 8%;
 
   background-color: transparent;
-}
 
-.titulo-sumario h2 {
   color: hsl(224, 30%, 27%);
   font-size: 16px;
   font-weight: 800;
 }
+
+
 
 .itens-sumario {
   display: flex;
@@ -299,7 +299,7 @@ button:hover {
     background: transparent;
   }
 
-  .titulo-sumario {
+  #titulo-sumario {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -309,9 +309,7 @@ button:hover {
     height: 60px;
 
     background-color: transparent;
-  }
 
-  .titulo-sumario h2 {
     color: hsl(224, 30%, 27%);
     font-size: 22px;
     font-weight: 800;
@@ -394,7 +392,7 @@ button:hover {
     background: transparent;
   }
 
-  .titulo-sumario {
+  #titulo-sumario {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -405,14 +403,13 @@ button:hover {
     margin-bottom: 0;
 
     background-color: transparent;
-  }
 
-  .titulo-sumario h2 {
     color: hsl(224, 30%, 27%);
     font-size: 22px;
     font-weight: 800;
   }
 
+  
   .itens-sumario {
     padding: 0;
     height: auto;
@@ -488,7 +485,7 @@ button:hover {
     background: transparent;
   }
 
-  .titulo-sumario {
+  #titulo-sumario {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -498,13 +495,13 @@ button:hover {
     margin-bottom: 5%;
 
     background-color: transparent;
-  }
 
-  .titulo-sumario h2 {
     color: hsl(224, 30%, 27%);
     font-size: 22px;
     font-weight: 800;
   }
+
+ 
 
   .itens-sumario {
     padding: 0;
