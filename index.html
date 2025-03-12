@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Results summary component</title>
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section id="resultado" aria-labelledby="titulo-resultado">
+        <h2 id="titulo-resultado">Your Result</h2>
+        <div class="pontuacao">
+          <div class="valor-pontuacao"></div>
+          <div class="total-pontuacao">of 100</div>
+        </div>
+
+        <div class="info-adicional">
+          <div class="feedback">Great</div>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+
+      <section id="sumario" aria-labelledby="titulo-sumario">
+        <div class="titulo-sumario">
+          <h2>Summary</h2>
+        </div>
+        <div class="itens-sumario">
+          <ul class="lista-sumario">
+            <li class="li-1">
+              <span class="conteudo-categoria">
+                <img                  
+                  alt="Ícone"
+                  width="25"
+                  height="25"
+                  class="img-sumario"
+                />
+                <span class="categoria"></span>
+              </span>
+              <span class="pontuacao-resultado"></span>
+            </li>
+            <li class="li-2">
+              <span class="conteudo-categoria">
+                <img                  
+                  alt="Ícone"
+                  width="25"
+                  height="25"
+                  class="img-sumario"
+                />
+                <span class="categoria"></span>
+              </span>
+              <span class="pontuacao-resultado"></span>
+            </li>
+            <li class="li-3">
+              <span class="conteudo-categoria">
+                <img                  
+                  alt="Ícone"
+                  width="25"
+                  height="25"
+                  class="img-sumario"
+                />
+                <span class="categoria"></span>
+              </span>
+              <span class="pontuacao-resultado"></span>
+            </li>
+            <li class="li-4">
+              <span class="conteudo-categoria">
+                <img                  
+                  alt="Ícone"
+                  width="25"
+                  height="25"
+                  class="img-sumario"
+                />
+                <span class="categoria"></span>
+              </span>
+              <span class="pontuacao-resultado"></span>
+            </li>
+          </ul>
+          <button>Continue</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
