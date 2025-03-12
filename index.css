@@ -262,17 +262,17 @@ button:hover {
   }
 
   main {
-    display: flex; /* Flexbox para layout em coluna */
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
 
     background: linear-gradient(
       to bottom,
-      hsl(249, 84%, 67%),
-      hsl(0, 0%, 100%)
+      hsl(252, 86%, 81%),
+      hsl(240, 26%, 95%)
     );
-    background-size: 100% 55%; /* Gradiente se estende a 200% da altura */
+    background-size: 100% 60%;
     background-repeat: no-repeat;
 
     
@@ -291,8 +291,8 @@ button:hover {
   }
 
   #sumario {
-    width: 100vw;
-
+    width: 100vw;    
+    
     margin: 0;
     padding: 0;
 
@@ -308,11 +308,13 @@ button:hover {
 
     height: 60px;
 
-    background-color: transparent;
-
     color: hsl(224, 30%, 27%);
     font-size: 22px;
     font-weight: 800;
+
+    margin-bottom: 3%;
+
+
   }
 
   .itens-sumario {
