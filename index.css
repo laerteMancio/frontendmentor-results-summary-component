@@ -261,6 +261,8 @@ button:hover {
     padding: 0;
 
     background-color: hsl(0, 0%, 100%);
+
+    overflow: auto;
   }
 
   main {
